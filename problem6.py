@@ -20,9 +20,12 @@
 
 '''
 
-#import problem4
+def Ex6(string = 0):
+    _list_ = input("Enter The Numbers\n").split(',')
+    C = 50
+    H = 30 
+    return ','.join([str(int(((2 * C * int(num))/H)**(1/2))) for num in _list_])
 
-#print(dir)
-print("hello")
-x = input("get")
-print(x)
+
+if __name__ == "__main__":
+    print(Ex6())

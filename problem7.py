@@ -12,7 +12,7 @@
             [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
 
 '''
-def prob(x,y):
+def Ex7(x,y):
     result = []
     for i in range(x):
         temp = []
@@ -22,5 +22,4 @@ def prob(x,y):
     return result
     
 if __name__ == '__main__':
-    print(prob(3,5))
-    
+    print(Ex7(3,5))

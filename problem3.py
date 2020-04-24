@@ -17,5 +17,5 @@ def Ex3(num = 8):
     my_dictionary[number] = number**2
   return my_dictionary
   
-if __name__ == 'main':
+if __name__ == '__main__':
   print(Ex3(8))

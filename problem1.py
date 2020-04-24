@@ -17,5 +17,5 @@ def Ex1():
           continue
   return 'END'
 
-if __name__ == 'main':
+if __name__ == '__main__':
     Ex1()

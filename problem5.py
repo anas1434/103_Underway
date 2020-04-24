@@ -10,6 +10,10 @@
 
 
 class String():
+    '''
+        getString: to get a string from console input
+        printString: to print the string in upper case.
+    '''
     def __init__(*args, **kwargs):
         string = 'NO STRINGS ATTACHED'
     def getString(self):
@@ -17,7 +21,10 @@ class String():
     def printString(self):
         print(self.string.upper())
 
-test = String()
-test.getString()
-print('')
-test.printString()
+if __name__ == "__main__":
+
+
+    test = String()
+    test.getString()
+    print('')
+    test.printString()

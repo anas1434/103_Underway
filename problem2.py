@@ -13,5 +13,5 @@ def Ex2():
 
   return factorial(x)
 
-if __name__ == 'main':
+if __name__ == '__main__':
     print(Ex2())

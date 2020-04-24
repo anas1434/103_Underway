@@ -13,9 +13,10 @@ Then, the output should be:
 '''
 
 
-def prog(string=""):
-
+def Ex4(string=""):
+    
     global my_list
+    my_list = []
     string = input("ENTER NUMBERS: \n")
     my_list = string.split(',')
     my_tuple = tuple(my_list)
@@ -23,5 +24,5 @@ def prog(string=""):
 
 
 if __name__ == '__main__':
-    my_list = []
-    print(prog())
+    
+    print(Ex4())
