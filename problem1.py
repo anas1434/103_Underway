@@ -16,3 +16,6 @@ def Ex1():
       else:
           continue
   return 'END'
+
+if __name__ == 'main':
+    Ex1()

@@ -12,3 +12,6 @@ def Ex2():
   x = int(input("ENTER A NUM: "))
 
   return factorial(x)
+
+if __name__ == 'main':
+    print(Ex2())
