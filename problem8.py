@@ -13,9 +13,12 @@
                 bag,hello,without,world
 
 '''
-raw_input = input("enter the words \n ").split(',')
+def Ex8():
+    raw_input = input("enter the words \n ").split(',')
 
-raw_input.sort()
-for char in raw_input:
-    print(char, end=',')
-    
+    raw_input.sort()
+    for char in raw_input:
+        print(char, end=',')
+
+if __name__ == "__main__":
+    Ex8()

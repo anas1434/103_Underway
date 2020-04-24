@@ -19,7 +19,6 @@ def Ex4(string=""):
     my_list = []
     string = input("ENTER NUMBERS: \n")
     my_list = string.split(',')
-    my_tuple = tuple(my_list)
     return my_list
 
 

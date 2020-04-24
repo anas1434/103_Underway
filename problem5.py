@@ -15,6 +15,9 @@ class String():
         printString: to print the string in upper case.
     '''
     def __init__(*args, **kwargs):
+        '''
+        Trying to create a class
+        '''
         string = 'NO STRINGS ATTACHED'
     def getString(self):
         self.string = input("ENTER YOUR STATEMENT\n")
