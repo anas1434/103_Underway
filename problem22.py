@@ -15,6 +15,7 @@ New:1
 Python:5
 Read:1
 and:1
+
 between:1
 choosing:1
 or:2
@@ -22,4 +23,15 @@ to:1
 '''
 
 def Ex22():
-    
+    dublicates = []
+    raw_input = input().split()
+    raw_input.sort()
+    for char in raw_input:
+        if char in dublicates:
+            continue
+        else:
+            dublicates.append(char)
+            print(char, ' :' , raw_input.count(char))
+
+if __name__ == "__main__":
+    Ex22()
