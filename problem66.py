@@ -13,14 +13,13 @@ Then, the output of the program should be:
 
 def Ex66():
     raw_input = input().split(' ')
-    print(raw_input)
     num1 = (raw_input[0])
     num2 = raw_input[2]
     operator = (raw_input[1])
     if operator == '+':
         return int(num1) + int(num2)
     elif operator == '-':
-        return num1 - num2
+        return int(num1) - int(num2)
     elif operator == '*':
         return num2 * num1
     elif operator == '/':
