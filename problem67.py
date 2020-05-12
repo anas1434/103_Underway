@@ -4,25 +4,27 @@ The function should return the index of element to be searched in the list.
 '''
 
 def Ex67():
+    print('start')
     num_list = [46,23,79,64,96,41,47,63,93,24]
-    number = 47
+    number = 24
     num_list.sort()
-    x = int((low+high)/2)
-    low = num_list[0]
-    mid = num_list[x]
-    high = num_list[9]
+
+    low = 0
+    high = 9
     
+    mid = int((low + high)/2)
 
     while low != high:
-        if number == mid:
+        if number == num_list[mid]:
             return 'VALUE FOUND'
-        elif number > mid:
+        elif number > num_list[mid]:
             low = mid
-            mid = num_list[x]
-        elif number < mid:
+            mid = int((low + high)/2)
+        elif number < num_list[mid]:
             high = mid
-            mid = num_list[x]
+            mid = int((low + high)/2)
     return "NOT FOUND"
 
 if __name__ == "__main__":
     print(Ex67())
+    print('end')
